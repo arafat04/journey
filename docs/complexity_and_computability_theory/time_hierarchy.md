@@ -182,4 +182,27 @@ In order to show there is a hierarchical relation among various time complexitie
 
 ### Time Constructibility:
 
-Time constructible means if we say a function uses $f(n)$ steps to complete the work it is  
+Fucntion $f : \mathbb{N} \to \mathbb{N}$, where $f(n) \in \Omega(n \cdot \log_2 n)$, is called **TIME CONSTRUCTIBLE** if a function that maps the input $1^n$ to the binary representation of $f(n)$ can be computed in time $\mathcal{O}(f(n))$.
+
+Common functions used to measure time complexity are time-constructible, e.g.
+$\left\lceil \sqrt{n},\log^2 n \right\rceil$, $\left\lceil n \log_2 n \right\rceil$, polynomials, $2^n$.
+
+**How to count computation steps efficiently:**
+
+Assuming $f(n)$ is time constructible using a TM $M_f$.
+
+It will compute the steps by:
+
+1. Given input x
+2. Construct string $w = 1^n$
+
+   * convert every character in x to 1.
+3. Compute $k = f(n)$
+
+     * Call $M_f(w)
+4. Initialize a binary counter with value k
+
+     * The counter uses $\left\lceil n \log_2 n \right\rceil$ bits
+5. Decrement the counter after each step and stop when it hits zero.
+
+

@@ -4,23 +4,23 @@
 
 Turing Machine $\to$ TM
 
-$\mathbb{O}(f(n))$ : the function grows at most as fast as $f(n)$ or it does not grow faster than $f(n)$ (upper bound).
+$\mathbb{O}(f(n))$ : the function grows at most as fast as $f(n)$ or it does not grow faster than $f(n)$ (upper bound - read as Big O of f of n).
 
-$o(f(n))$ : the function grows strictly slower than $f(n)$
+$o(f(n))$ : the function grows strictly slower than $f(n)$ (small o of f of n).
 
-$\mathbb{\Omega}f(n)$ : the function $f(n)$ grows at least as fast as $f(n)$, this is the lower bound, the function can grow much faster than this.
+$\mathbb{\Omega}f(n)$ : the function $f(n)$ grows at least as fast as $f(n)$, this is the lower bound (Big omega of f of n), the function can grow much faster than this.
 
-$\mathbb{\Theta}f(n)$ : grows at the same rate (tighter or both bounds).
+$\mathbb{\Theta}f(n)$ : grows at the same rate (tighter or both bounds - read as Big theta of f of n).
 
 **What does $f(n) \in \mathbb{\Omega}(g(n))$ means:**
 
 $A \in B \to$  A is an element of or A is an member of B. It is used for set membership. For $\mathbb{T}(n) \in \mathbb{O}(n^2)$: The function $\mathbb{T}(n)$ is a member of the set of functions that grow at most as fast as $n^2$.
 
 $$
-\mathcal{O}(n^2) = \{ f(n) \mid \exists c>0, n_0>0 \text{ such that } f(n) \le c \cdot n^2 \text{ for all } n \ge n_0 }
+\mathbb{O}(n^2) = \{ f(n) \mid \exists c>0, n_0>0 \text{ such that } f(n) \le c \cdot n^2 \text{ for all } n \ge n_0 }
 $$
 
-It reads: “Big-O of $n^2$ is the set of functions $f$ of n such that there exist constants c and $n_0$ where $f(n)$ is less than or equal to c times n squared for all n greater than or equal to $n_0$.”
+It reads: “Big-O of $n^2$ is the set of functions $f$ of n such that there exist constants c and $n_0$ where $f(n)$ is less than or equal to c times $n^2$ for all n greater than or equal to $n_0$.”
 
 The vertical bar `|` means **“such that.”** It separates the description of the set from the condition elements must satisfy. So everything to the right of `|` is the property a function must meet to be included in the set $\mathbb{O}(n^2)$.
 

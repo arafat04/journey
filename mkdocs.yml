@@ -4,6 +4,7 @@ theme:
   name: material
 
 nav:
+  - About Me: about_me.md
   - Home: index.md
   - Complexity and Computability Theory:
       - Deterministic Space Hierarchy Theorem: complexity_and_computability_theory/space_hierarchy.md

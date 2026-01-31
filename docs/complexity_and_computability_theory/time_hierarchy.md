@@ -12,9 +12,102 @@ $\Omega (f(n))$ : the function $f(n)$ grows at least as fast as $f(n)$, this is 
 
 $\Theta (f(n))$ : grows at the same rate (tighter or both bounds - read as Big theta of f of n).
 
+**These notations describes growth rate, not what "always happens."**
+
+They compare how two functions behave as $n \to \infty$. They do not mean "the algorithm uses exactly this much time."
+
+**For example:** $f(n) = n^2$
+
+**Big-O: Upper bound - this is the ceiling of the function (asymptotically).**
+
+$$
+  T(n) \in \mathcal{O}(n^2)
+$$
+
+  meaning:
+  
+  `For sufficiently large n, the running time is at most proportional to` $n^2$
+
+  Formally:
+
+$$
+\exists c>0, n_0>0 \text{ such that }  T(n) \le c \cdot n^2 \text{for all } n \ge n_0.
+$$
+
+  So the algorithm can run in:
+
+  * $n$ time
+  * $n log n$ time
+  * $5n^2$ time
+  * but not in $n^3$ time as this asymptotically grows much faster than $n^2$.
+
+Note: It does not mean the algorithm uses always $n^2$ time, this is the ceiling on which theh algorithm can run.
+
+**Big-Omega: Lower Bound / Floor - it can not grow slower than** $n^2$
+
+$$
+T(n) \in \Omega(n^2)
+$$
+
+meaning:
+
+`for sufficiently large n the running time is at least proportional to` $n^2$.
+
+Formally:
+
+$$
+\exists c>0, n_0>0 \text{ such that} T(n) \ge c \cdot n^2 \text{ for all } n \ge n_0.
+$$
+
+**So the algorithm might run in:**
+
+* $n^3$ time
+* $10n^2$ time
+* $n^2 log n$ time
+* but not in $n log n$ time as this is asymptotically slower than $n^2$.
+
+So the function can not grow slower than $n^2$ (asymptotically).
+
+**Big-theta: Tighter bound:**
+
+$$
+T(n) \in \Theta(n^2)
+$$
+
+This means both:
+$$T(n) \in \mathcal{O}(n^2)$$ and $$T(n) \in \Omega(n^2)$$
+
+So it grows on the order of $$n^2$$, neither asymptotically smaller nor larger.
+
+So the algorithm might run in:
+
+* $$5n^2$$
+* $$5n^2 \add n
+* but not in $$nlogn$$ or $$n^3$$.
+
+So,
+
+**“Algorithm A is $O(n^2)$”**
+It means a **worst-case upper bound** (usually).
+
+And:
+
+**“Problem P requires $\Omega(n^2)$ time”**
+It means **any algorithm solving it must take at least that long** (a lower bound on the problem).
+
+We can think of growth rates as **speed limits**:
+
+| Notation      | Meaning                         | Analogy                     |
+| ------------- | ------------------------------- | --------------------------- |
+| $O(n^2)$      | grows no faster than $n^2$      | speed limit ≤ 100 km/h      |
+| $\Omega(n^2)$ | grows at least as fast as $n^2$ | speed is ≥ 100 km/h         |
+| $\Theta(n^2)$ | grows exactly like $n^2$        | speed stays around 100 km/h |
+
+
 **What does $f(n) \in \mathbb{\Omega}(g(n))$ means:**
 
-$A \in B \to$  A is an element of or A is an member of B. It is used for set membership. For $\mathbb{T}(n) \in \mathbb{O}(n^2)$: The function $\mathbb{T}(n)$ is a member of the set of functions that grow at most as fast as $n^2$.
+$A \in B \to$  A is an element of or A is an member of B. It is used for set membership. 
+For $\mathcal{T}(n) \in \mathcal{O}(n^2)$: The function $\mathcal{T}(n)$ is a member of the set of functions that grow at most as fast as $n^2$.
 
 $$
 \mathcal{O}(n^2) =  f(n) \mid \exists c>0, n_0>0 \text{ such that } f(n) \le c \cdot n^2 \text{ for all } n \ge n_0 
@@ -43,7 +136,7 @@ n \log n \notin o(n)$
 
 It is about in terms computation of algorithms, there is a hierarchy among time complexities.
 
-For any time constructible Function $f : \mathbb{N} \to \mathbb{N}$ there exists a language $\mathbb{A}$ that is decidable by a TM in $\mathbb{O}(f(n))$ time but not in $o(\frac{f(n)}{\log_2 f(n)})$ time. 
+For any time constructible Function $f : \mathbb{N} \to \mathbb{N}$ there exists a language $\mathbb{A}$ that is decidable by a TM in $\mathcal{O}(f(n))$ time but not in $o(\frac{f(n)}{\log_2 f(n)})$ time. 
 
 
 $$

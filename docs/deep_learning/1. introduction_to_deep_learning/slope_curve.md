@@ -1,7 +1,10 @@
-For a function of a line, the slope is the division between the change between y coordinates and the change between x coordinates.
+For a function of a line, the slope is the division between the change between $y$ coordinates and the change between $x$ coordinates.
 
 $$
-  slope \equal \frac{\delta(y)}{\delta(x)}
+  slope = \frac{\Delta(y)}{\Delta(x)}
+$$
+$$
+  slope = \frac{y_2 - y_1}{x_2 - x_1}
 $$
 
 For a line, there is only one slope. But for a curve, each point will have different slope.

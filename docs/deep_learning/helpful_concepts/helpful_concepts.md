@@ -64,21 +64,21 @@ We know that derivative of $log(x)$ is $\fract{1}{x}. However, the value inside 
 
 $$
   z = 1 + x^2
-  \frac{d}{dx} log(1+x^2) = \frac{d}{dz} log(z) \dot \frac{dz}{dx}
+  \frac{d}{dx} log(1+x^2) = \frac{d}{dz} log(z) \frac{dz}{dx}
 $$
 
 $$
-  \frac{d}{dx} log(1+x^2) = \frac{1}{z} \dot \frac{d}{dx}(1+x^2)
+  \frac{d}{dx} log(1+x^2) = \frac{1}{z} \frac{d}{dx}(1+x^2)
 $$
 
 $$
-  \frac{d}{dx} log(1+x^2) = \frac{1}{z} \dot 2x
+  \frac{d}{dx} log(1+x^2) = \frac{1}{z} 2x
 $$
 
 Finally we have to replace the value of $z$ with the value we substituted it with. So the final result:
 
 $$
-  \frac{d}{dx} log(1+x^2) = \frac{1}{1+x^2)} \dot 2x
+  \frac{d}{dx} log(1+x^2) = \frac{1}{(1+x^2)} 2x
 $$
 
 This is the essence of the chain rule. We need to put things in the parentheses and we can take the derivative as a chain fashion.

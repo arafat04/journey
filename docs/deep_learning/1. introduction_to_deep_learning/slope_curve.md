@@ -3,6 +3,7 @@ For a function of a line, the slope is the division between the change between $
 $$
   slope = \frac{\Delta(y)}{\Delta(x)}
 $$
+
 $$
   slope = \frac{y_2 - y_1}{x_2 - x_1}
 $$
@@ -15,7 +16,7 @@ $$
 f^{\prime}(x) = \lim_{h \to 0} \frac{f(x_0 + h) - f(x_0)}{h}
 $$
 
-Here $f^{\prime}(x)$ is another function, that the derivative of the initial function $f(x)$ and h is the difference between $x_0+h$ and $x_0$. The derivative of the function of the curve is the slope of the curve at any point.
+Here $f^{\prime}(x)$ is another function because the slope changes at every x value and this is the derivative of the initial function $f(x)$ and $h$ is the difference between $x_0+h$ and $x_0$. The derivative of the function of the curve is the slope of the curve at any point.
 
 
 

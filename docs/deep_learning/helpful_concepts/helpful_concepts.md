@@ -48,10 +48,11 @@ The chain rule helps us to get the derivative of a function with respect to a pa
 $$
   \frac{dRest}{dWork}
 $$
+
 it is not directly connected with the physical work. However, it is connected with feeling tired and feeling tired is directly connected with the physical work. So we can use the "chain" as the mean to get our desired derivative. So,
 
 $$
-  \frac{dRest}{dWork} = \frac{dRest}{dTired} \dot \frac{dTired}{dWork}
+  \frac{dRest}{dWork} = \frac{dRest}{dTired} \frac{dTired}{dWork}
 $$
 
 Chain rule can be understood with this derivative of the log problem:

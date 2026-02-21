@@ -10,6 +10,7 @@ nav:
       - 1.Introduction to Machine Learning: machine_learning/1_introduction_to_machine_learning/qnas.md
       - 12.Statistical Hypothesis Testing, Model Comparison: machine_learning/12-statistical-hypothesis-testing-model-comparison/questions_answers.md
   - Deep Learning:
+      - Useful Concepts: deep_learning//helpful_concepts//helpful_concepts.md
       - 1. Introduction to Deep Learning: deep_learning/1. introduction_to_deep_learning/slope_curve.md
   - Complexity and Computability Theory:
       - Deterministic Space Hierarchy Theorem: complexity_and_computability_theory/space_hierarchy.md

@@ -64,7 +64,9 @@ We know that derivative of $log(x)$ is $\fract{1}{x}. However, the value inside 
 
 $$
   z = 1 + x^2
-  
+$$
+
+$$
   \frac{d}{dx} log(1+x^2) = \frac{d}{dz} log(z) \frac{dz}{dx}
 $$
 

@@ -22,5 +22,9 @@ Cognitive loop:
    3. learn
    4. update
 5. Explain what is perception.
-6. 
+
+### communication patterns between components
+
+6. Explain why communication between components is important?
+7. Explain the components of communication petterns?
 

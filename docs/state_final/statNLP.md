@@ -31,7 +31,13 @@ $$Probability = \frac{\text{number of outcomes}}{\text{total number of possible 
 
 5. What are the types of methods for calculating probability?
 6. Why we nee Maximum Likelihood Estimation (MLE)?
+7. Explain KL divergence.
+8. Explain entropy.
+   Ans: Entropy is the measurement which describes amount of surprise or information is available from a random process
+10. explain Mutual Information (MI)
 
+
+11. 
 # Speech and Dialogue systems
 
 1. Basic components of a dialogue system.

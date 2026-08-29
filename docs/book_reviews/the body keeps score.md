@@ -1,2 +1,1 @@
-I had undergone surgical wisdom tooth extraction as the tooth was growing horizontally instead of growing vertically. 
-The process includes cutting the tooth little by little with drill and kind of doing sculpture work.
+I had to undergo surgical wisdom tooth extraction as the tooth was growing horizontally instead of growing vertically. The process includes cutting the tooth little by little with drill and kind of doing sculpture work. It was 1 hour drilling and excavating process. For me both processes were fine, however drilling will put a heavy pressure on the gum and mouth. It was later that night, my gum was feeling the exact muscle movements when the drilling happened, it remembered the trauma when the anesthesia effect was gone. So indeed the body keeps score.

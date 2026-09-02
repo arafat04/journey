@@ -1,0 +1,1 @@
+1. Always keep the final version of code chunk or code as even though initial codes gives the better understanding of how things work, but when revisited later, they create a problem. - ISIR/SCAI internship.

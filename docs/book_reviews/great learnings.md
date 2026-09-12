@@ -1,1 +1,2 @@
 1. People who are traumatized for any circumstances even s/he was not responsible for that or they were the victim, the reason it is hard to revisit the memory is the shame that the person carry - feeling of shame in order to survive or shame how that person behave in that situation - maybe vulnerable, fearful, intimidated, insulted - the person feels he should have had the power to avoid the traumatic experience - The body keeps the score
+2. In life all the problems can be solved if we ask the right question. - Arafat sept 12,2026, Prague

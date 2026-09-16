@@ -10,3 +10,10 @@ Here’s a step-by-step guide for your xcomet environment.
 
 > --display-name "Python (xcomet)" -> what shows in Jupyter’s kernel selection dropdown
 
+I used xcomet venv stored in:
+/storage/brno2/home/rahmang/envs/xcomet/
+
+that is: ~/miniforge3/bin/mamba run --prefix=~/envs/xcomet/ \
+python -m ipykernel install --user --name xcomet --display-name "xcomet_frn_czch_both"
+
+so the "xcomet_frn_czch_both" represent the environment that was used in Eng to Frn experience will be used for Eng to Czech experiment as well. 

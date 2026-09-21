@@ -3,4 +3,4 @@
 3. Human kind quit doing the right things hoping of doing the wrong things (sins) (manush paap korbe ei ashaay punno kora chere dey) - Arafat sept 16, 26, Prague
 4. what is laziness? thinking about what if I can not do it perfectly, I will fail at it, it will take very long time that I do not know, even if I give my best what if it fails? We need to reverse the question - what if it turns best? even if not, the journey and effort will make us resilient and the will enable us to gain the focus that is vital learning.
 5. People do not hurt us, our expectation from them do - need to know who said this.
-6.  
+6. We wander in the past, worry about the future, and destroy our present. - AR, sept 21, P

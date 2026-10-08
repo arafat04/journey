@@ -6,3 +6,4 @@
 6. We wander in the past, worry about the future, and destroy our present. - AR, sept 21, P
 7. How much time I wasted just trying to be a perfectionist. -AR, sept 29, P
 8. People show disrespect due to the lack of self respect. - AR, sept 29, P
+9. as our body discharge everything one way or another, our emotions are never kept suppressed, they take one form or another. AR, oct 8, P

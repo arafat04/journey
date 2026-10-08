@@ -7,3 +7,4 @@
 7. How much time I wasted just trying to be a perfectionist. -AR, sept 29, P
 8. People show disrespect due to the lack of self respect. - AR, sept 29, P
 9. as our body discharge everything one way or another, our emotions are never kept suppressed, they take one form or another. AR, oct 8, P
+10. We feel guilt on wasting our time in the past and waste precious present ruminating about it, the best way to overcome wasted time and prevent having regret is to utilize current moment with 100% focus - Ar, oct 8, 26, P

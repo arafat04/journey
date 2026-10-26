@@ -8,3 +8,7 @@
 8. People show disrespect due to the lack of self respect. - AR, sept 29, P
 9. as our body discharge everything one way or another, our emotions are never kept suppressed, they take one form or another. AR, oct 8, P
 10. We feel guilt on wasting our time in the past and waste precious present ruminating about it, the best way to overcome wasted time and prevent having regret in the future is to utilize current moment with 100% focus - Ar, oct 8, 26, P
+11. What you think you have, will have, are, will become, is worthy, will be worthy everything is how and what you think.
+12. When I realized that even our appearances, health determined by how we think, I was having so much regret that it took me 26 years to realize this.
+13. always create output files and whenever doing another thing, load the output file and then do, do not ever use intermediate or final variables, as the whole code will have to be run again.
+14.  

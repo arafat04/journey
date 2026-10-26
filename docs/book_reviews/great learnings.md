@@ -11,4 +11,4 @@
 11. What you think you have, will have, are, will become, is worthy, will be worthy everything is how and what you think.
 12. When I realized that even our appearances, health determined by how we think, I was having so much regret that it took me 26 years to realize this.
 13. always create output files and whenever doing another thing, load the output file and then do, do not ever use intermediate or final variables, as the whole code will have to be run again.
-14.  
+14.  Always automate when there is no need for supervision.
